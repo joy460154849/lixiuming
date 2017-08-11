@@ -10,7 +10,7 @@ github的使用方式：这里我们讲的是github 上创建远程的仓库，
 9.撤销修改：
 	工作区撤销：git checkout -- filename
 	暂存区撤销：git reset HEAD filename
-	本地master：git reset --hard 版本号；
+	本地master：git reset --hard 版本号;
 10.查看分支：git branch;
 11.创建分支:git branch 分支名
 12.切换分支：git checkout 分支名
@@ -19,3 +19,6 @@ github的使用方式：这里我们讲的是github 上创建远程的仓库，
 15.查看本地和远程所有分支：git branch -a
 16.更新非master代码:git pull origin 分支名
 ***************************************************************
+合并分支了：
+1，先回到master分支
+2.合并：git merge 分支名
