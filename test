@@ -11,3 +11,4 @@ github的使用方式：这里我们讲的是github 上创建远程的仓库，
 	工作区撤销：git checkout -- filename
 	暂存区撤销：git reset HEAD filename
 	本地master：git reset --hard 版本号
+
