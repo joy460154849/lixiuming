@@ -6,3 +6,8 @@ github的使用方式：这里我们讲的是github 上创建远程的仓库，
 5.git status:查看文件状态——文件有4个状态，工作区，暂存区，master分支，远程master分支；
 6，工作区--》git add————》暂存区--》git commit-->master分支--》git push-->远程master分支；
 7.更新本地代码为 git pull;
+8.跳跃版本号：a.通过git log查询版本号;b,git reset --hard 版本号即可，（git log 可以用git reflog 代替，git reflog查询的是所有操作记录）
+9.撤销修改：
+	工作区撤销：git checkout -- filename
+	暂存区撤销：git reset HEAD filename
+	本地master：git reset --hard 版本号
