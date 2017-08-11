@@ -1,0 +1,8 @@
+github的使用方式：这里我们讲的是github 上创建远程的仓库，
+1.登入远程仓库，创建仓库
+2.复制仓库地址
+3.在终端中，选择目录，git clone https://github.com/joy460154849/lixiuming.git
+4.等待完成即可;
+5.git status:查看文件状态——文件有4个状态，工作区，暂存区，master分支，远程master分支；
+6，工作区--》git add————》暂存区--》git commit-->master分支--》git push-->远程master分支；
+
